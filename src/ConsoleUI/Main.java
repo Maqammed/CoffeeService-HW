@@ -17,7 +17,7 @@ public class Main {
 		customerManager1.Save(new Customer(1,"Maqa","Mmed",LocalDate.of(2003,1,1),"12345678910"));
 		
 		BaseCustomerManager customerManager2 = new StarBucksCustomerManager(new MernisServiceAdapder());
-	    customerManager2.Save(new Customer(2, "Fatma", "Gundogdu",LocalDate.of(1901,1,1), "12345678920"));
+	    customerManager2.Save(new Customer(2, "Fatma", "Gundogdu",LocalDate.of(1901,1,1), "12345678920"));          
 		 
 
 	}
